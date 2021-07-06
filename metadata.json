@@ -1,0 +1,20 @@
+{
+  "Topics": {
+    "autorizacao-processada": [
+      "um.dois.avsc"
+    ],
+    "comando-autorizacao": [
+      "um.dois.tres.avsc"
+    ]
+  },
+  "Create": [
+    "um.dois.avsc",
+    "um.dois.tres.avsc"
+  ],
+  "Update": [],
+  "Delete": [],
+  "Compatibility": {
+    "FULL": [ "um.dois.tres.avsc" ],
+    "NONE": []
+  }
+}

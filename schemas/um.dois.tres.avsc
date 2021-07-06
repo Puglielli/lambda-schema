@@ -1,0 +1,21 @@
+{
+  "namespace": "br.com.itau.depositos",
+  "type": "record",
+  "name": "Credito",
+  "fields": [
+    {
+      "name": "data",
+      "type": {
+        "type": "record",
+        "name": "CreditoData",
+        "fields": [
+          {
+            "name": "numeri_unico_conta",
+            "type": "string",
+            "doc": "Numero Unico"
+          }
+        ]
+      }
+    }
+  ]
+}
